@@ -1,0 +1,7 @@
+g++  -Wall -O0 -g convert.cpp -o convert
+convert.cpp: In function ‘int main()’:
+convert.cpp:43: error: expected ‘;’ before ‘}’ token
+convert.cpp: At global scope:
+convert.cpp:46: error: expected constructor, destructor, or type conversion before ‘<<’ token
+convert.cpp:52: error: expected declaration before ‘}’ token
+gmake: *** [convert] Error 1
